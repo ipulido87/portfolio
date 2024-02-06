@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import aireuropa from "@/public/aireuropa.jpg";
+import juniper from "@/public/juniper.jpg";
+import chiliz from "@/public/chiliz.jpg";
 
 export const links = [
   {
@@ -35,54 +35,80 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "QA ENGINEER  -CHILIZ",
+    location: "Malta",
+    company: "CHILIZ",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Developed comprehensive test cases and collaborated with teams to ensure full coverage of requirements.  Automated testing using Katalon Studio, Selenium,and Cucumber, speeding up bug detection and improving efficient by 30%",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    // icon: <CgWorkAlt />,
+    date: "Aug 2023 - Feb 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "QA TESTER",
+    location: "Palma de Mallorca, Spain",
+    company: "JUNIPER CONSULTING",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Designed and executed functional tests for new developments. Proposing improvements for initialy unplanned projects, Efficient management of Oracle and Postgres databases, Developed an automation framework for web and mobile applications using Selenium and Appium.",
+    //icon: <FaReact />,
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2022 - Aug -2023",
+  },
+  {
+    title: "QA TESTER",
+    location: "Palma de Mallorca, Spain",
+    company: "AIR EUROPA",
+    description:
+      "Developed test cases and automated API tests using Postman and Newman Collaborated in continuous integration management with Jenkins Managed a Mobile Device Management (MDM) system",
+    //icon: <FaReact />,
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2019 - Aug -2022",
+  },
+
+  {
+    title: "WEB DEVELOPER & DESIGN - INKOR",
+    location: "San Sebastian , Spain",
+    company: "",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    //icon: <LuGraduationCap />,
+    date: "2020 -2021 ",
+  },
+  {
+    title:
+      "Diploma in Electronics and Telecommunications Engineering Technology ",
+    company: "",
+    location: "Facatativa, Colombia",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    //icon: <LuGraduationCap />,
+    date: "2011 -2014",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Air Europa Crewpad",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a QA Engineer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["Selenium", "Java", "Postgree", "Cucumber", "Testlink"],
+    imageUrl: aireuropa,
   },
   {
-    title: "rmtDev",
+    title: "Juniper Consulting",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Job board for remote developer jobs. I was the QA Enginner. It has features like filtering, sorting and pagination.",
+    tags: ["XML", "C#", "SQL", "HTML", "Javascript"],
+    imageUrl: juniper,
   },
   {
-    title: "Word Analytics",
+    title: "Chiliz",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    tags: ["React", "XCode", "Jira", "Katalon", "Java"],
+    imageUrl: chiliz,
   },
-] ;
+]; ;
 
 export const skillsData = [
   "HTML",
@@ -94,14 +120,16 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "JAVA",
+  "Selenium WebDriver",
+  "Cucumber",
+  "XCode",
+  "JSON",
+  "Gherkin",
+  "XML",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "C#",
+  "Jira",
+  "Katalon",
+  "Appium",
 ] as const;
