@@ -22,7 +22,6 @@ export default function About() {
         >
           <SectionHeading>About me </SectionHeading>
           <p className=" mb-3">
-            With over 5 years of experience,
             <span className="font-medium">
               I am confident that my technical skills, passion for innovation, and
               commitment to quality can significantly contribute to your company{" "}
@@ -37,8 +36,7 @@ export default function About() {
             </span>
             .{" "}
             <span className="italic">
-              as well as successfully implementing CI/CD pipelines to ensure
-              continuous and efficient delivery.
+              as well I implemented automation processes from scratch for regression and smoke testing
             </span>{" "}
             is the problem-solving aspect. I <span className="underline">love</span>{" "}
             the feeling of finally figuring out a solution to a problem.
